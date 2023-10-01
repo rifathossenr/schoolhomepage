@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap"); 
+
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: "Tiro Bangla", serif;
+     text-decoration: none;
+     list-style: none;
+     /* color: black; */
+     text-decoration: none;
+
+
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+/* header css start */
+
+header{
+    background-color: rgb(13, 13, 65);
+}
+
+.bluesection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.blueIcon ul{
+    display: flex;
+    gap: 45px;
+}
+
+.blueSms {
+    color: #fff;
+    font-size: 20px;
+}
+
+.blueIcon i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.blueIcon i:hover{
+    color: rgb(110, 170, 31);
+    transform: scale(1.2);
+}
+
+/* header css end */
+
+
+/* header css 2 start */
+
+.logo img{
+    width: 90px;
+}
+
+.leftsideflextbox{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.schoolname h1{
+    color: green;
+}
+
+.header2parantdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.eiin h1{
+    color: green;
+}
+
+/* header css 2 end */
+
+
+
+/* header css 3 Start */
+
+.header3{
+    background-color: green;   
+}
+
+.menulist ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.menulist a{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+}
+
+.menulist a:hover{
+    background-color: rgb(212, 58, 58);
+    color: #acdb86;
+}
+
+
+/* header css 3 End */
+
