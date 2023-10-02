@@ -150,17 +150,58 @@ footer{
     margin: 10px 0;
 }
 
-.fastFoot h2, p, li a{
-    color: #fff;
-    line-height: 30px;
-}
-
 .fastFoot h2{
     margin: 20px 0;
 }
 
+.fastFoot h2, p{
+    color: #fff;
+    line-height: 20px;
+}
+
+/* .fastFoot h2, p, li a:hover{
+
+    color: #000;
+    padding-left: 20px;
+
+} */
+
+.fastFoot li a{
+    margin-top: 20px;
+    color: #fff;
+    line-height: 30px;
+    transition: .3s ease;
+
+}
+
+.fastFoot li a:hover{
+    color: black;
+    padding-left: 20px;
+}
 
 
 
+.footer2{
+    background-color: #000;
+}
+
+.peragraphParant{
+    display: flex;
+    justify-content: space-between;
+    height: 61px;
+    align-items: center;
+}
+
+.peragraph p, a{
+
+color: #fff;
+font-size: 20px;
+transition: .4s ease;
+}
+
+
+span a:hover{
+    color:yellow
+}
 /* footer css End */
 
