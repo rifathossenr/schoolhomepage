@@ -143,6 +143,7 @@ footer{
     background-color: green;
     margin-top: auto;
     position: relative;
+    padding: 70px 0;
 }
 
 .footparent{
@@ -167,10 +168,6 @@ footer{
     line-height: 20px;
 }
 
-.fastFoot1{
-    color: #fff;
-}
-
 
 .fastFoot li a{
     margin-top: 20px;
@@ -184,7 +181,8 @@ footer{
 
 .fastFoot li a:hover{
     color: black;
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    /* font-size: 24px; */
 }
 
 
@@ -202,9 +200,7 @@ footer{
 }
 
 .peragraph p, a{
-
 color: #fff;
-
 font-size: 20px;
 }
 
